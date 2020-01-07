@@ -1,11 +1,12 @@
 #include <stdio.h>
 #include <stdlib.h>
-#define ElementType int  //设置链表储存元素的数据类型
+#define ElementType int //设置链表储存元素的数据类型
 
 struct Node;
 typedef struct Node *PtrToNode;
 typedef PtrToNode List;
 typedef PtrToNode Position;
+
 List MakeEmpty(List L);
 int IsEmpty(List L);
 int IsLast(Position P, List L);
